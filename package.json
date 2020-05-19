@@ -1,0 +1,24 @@
+{
+  "name": "git-try",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onkarsangole/git-try.git"
+  },
+  "author": "Onkar Sangole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onkarsangole/git-try/issues"
+  },
+  "homepage": "https://github.com/onkarsangole/git-try#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
